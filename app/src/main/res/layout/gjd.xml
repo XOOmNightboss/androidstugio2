@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9B9494"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/task_name_input"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_border"
+        android:gravity="start|top"
+        android:hint="Введите название задачи..."
+        android:padding="10dp"
+        android:textColor="#281616"
+        android:textColorHighlight="#563030"
+        android:textColorHint="#020202" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="проснуться в 07:00" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="21dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-23dp"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="21dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-23dp"
+        android:gravity="center|top|left"
+        android:padding="5dp"
+        android:text="заняться спортом " />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center|top|left"
+        android:padding="5dp"
+        android:text="позавтракать " />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="21dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-20dp"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center|top|left"
+        android:padding="5dp"
+        android:text="поехать  на пару " />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="-23dp"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="-213dp"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+
+
+
+
+
+
